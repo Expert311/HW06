@@ -2,12 +2,11 @@ package com.company;
 
 public abstract class Vehicle {
 
-    protected  int wheelCount;
+    protected int wheelCount;
 
-    Vehicle (int wheelCount) {
+    public Vehicle(int wheelCount) {
         this.wheelCount = wheelCount;
     }
 
-    protected void printInfo() {
-    };
+    protected abstract void printInfo();
 }
